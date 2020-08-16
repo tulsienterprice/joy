@@ -1,0 +1,52 @@
+/*
+.features ul {
+    list-style-image: url('images/music-notes.png');
+}
+*/
+
+.features {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.features ul {
+    list-style: none;
+    padding-left: 0;
+}
+.features ul li {
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
+.features ul li:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-image: url('../images/music-notes-1.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.color-box .black {
+    background: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+.section-form {
+    background: #1e1e1e;
+    padding: 30px 0;
+}
+.section-form p {
+    color: #ff0000;
+}
+@media screen and (min-width:1900px)
+{
+}

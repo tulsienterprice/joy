@@ -1,0 +1,273 @@
+.smartf-value {
+  color: var(--main-color);
+}
+
+.submit-btn:hover {
+  color: #fff !important;
+
+}
+
+.btn {
+  text-transform: capitalize !important;
+}
+
+
+.sec-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-bottom: 6rem;
+  z-index: 1;
+}
+
+.sec-title h2 {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(45deg, #a21000, #f4150a);
+  padding: 12px 60px 58px;
+  color: #151418;
+  font-size: 42px;
+  transform: skew(-17deg, 0deg);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.1803921568627451), 1px 3px 20px rgba(0, 0, 0, 0.36);
+  color: #fff;
+  border: 1px solid #c81100;
+}
+
+.sec-title:after {
+  position: absolute;
+  content: '';
+}
+
+.sec-title:before {
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom, #f7f7f7, rgb(255, 255, 255));
+  left: -36px;
+  bottom: 13px;
+  z-index: 1;
+  transform: skew(-17deg, 0deg);
+  box-shadow: 0px 8px 17px 4px rgba(0, 0, 0, 0.11);
+}
+
+
+.sec-subtitle {
+  position: absolute;
+  background: linear-gradient(to bottom, #272729 50%, #4a4a4c 50%);
+  color: #fff;
+  font-size: 22px;
+  padding: 3px 12px;
+  font-weight: 300;
+  height: 43px;
+  z-index: 0;
+  width: calc(100% + 100px);
+  left: -79px;
+  line-height: 40px;
+  box-shadow: 0px 8px 20px 4px rgba(0, 0, 0, 0.23);
+  text-transform: uppercase;
+  transform: skew(-17deg, 0deg);
+  bottom: 8px;
+  padding-left: 150px;
+  text-align: left;
+}
+
+
+@media screen and (min-width : 240px) and (max-width : 480px) {
+
+  .regular-logo {
+    max-height: 50px;
+  }
+
+  .slider-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  h2.large-heading {
+    font-size: 1.99rem;
+  }
+
+  .power-icon .col {
+    display: flex;
+    align-items: center;
+  }
+
+  .power-icon .icon-img img {
+    max-width: 68px;
+  }
+
+  .sec-title h2 {
+    padding: 12px 42px 58px;
+    color: #fff;
+    font-size: 30px;
+    transform: skew(-0deg, 0deg);
+
+  }
+
+  .sec-subtitle {
+    font-size: 16px;
+    padding: 3px 12px;
+    transform: skew(-0deg, 0deg);
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
+
+  .sec-title:before {
+    content: unset;
+  }
+
+  .sec-title {
+    margin-bottom: 1rem;
+
+  }
+
+  .site-footer .footer-widget-area {
+    padding: 28px 0px 0px;
+  }
+
+  .features-box {
+
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  
+  .footer-interior__copyright
+  {
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (min-width : 482px) and (max-width : 767px) {
+
+  .regular-logo {
+    max-height: 50px;
+  }
+
+  .slider-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .power-icon .col {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .sec-title h2 {
+    font-size: 34px;
+  }
+
+  .sec-subtitle {
+    font-size: 19px;
+    width: calc(100% + 56px);
+    left: -49px;
+    padding-left: 100px;
+  }
+
+  .sec-title:before {
+    width: 64px;
+    height: 64px;
+    left: -36px;
+  }
+
+  .sec-title {
+    margin-bottom: 1rem;
+  }
+
+  .site-footer .footer-widget-area {
+    padding: 28px 0px 0px;
+  }
+
+  .features-box {
+
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+@media screen and (min-width : 767px) and (max-width : 991px) {
+
+  .Inquire-title {
+    text-align: center;
+  }
+
+  .site-footer .footer-widget-area {
+    padding: 50px 0px 0px;
+  }
+
+}
+
+@media screen and (min-width : 993px) and (max-width : 1030px) {
+
+  body,
+  .form-control {
+
+    font-size: 17px;
+  }
+
+  .form-control {
+    padding: 0 14px;
+  }
+
+  h1.large-heading span {
+    font-size: 3rem;
+  }
+
+  h1.large-heading {
+    font-size: 4rem;
+  }
+
+  .power-icon .icon-text {
+    font-size: 19px;
+  }
+
+  .sec-title:before {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sec-title h2 {
+    font-size: 36px;
+  }
+
+  .sec-subtitle {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width : 1900px) and (max-width : 1920px) {
+  .site-navigation .main-menu li a {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  .text-lead,
+  p.text-lead,
+  .text-lead > * {
+    font-size: 22px;
+  }
+
+  .features-box p {
+    font-size: 19px;
+  }
+
+  .features-box h4 {
+    font-weight: 500;
+  }
+
+}
+
+.quick-links ul li {
+    margin-bottom: 10px;
+}
